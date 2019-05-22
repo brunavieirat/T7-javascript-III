@@ -44,6 +44,7 @@ Retorne um array que encontre as alunas na qual a matéria preferida seja JavaSc
 [
   { nome: "XXX", idade: 23, materia_preferida: "JavaScript" }
 ]
+```
 
 ### 1.4 Unindo operações
 
