@@ -1,9 +1,8 @@
-## 3º exercício
+## 1º exercício
 
 Converta as funções nos seguintes trechos de código em Arrow Functions:
 
 ```js
-// 3.1
 
 const arr = [1, 2, 3, 4, 5];
 
@@ -13,7 +12,7 @@ arr.map(function(item) {
 ```
 
 ```js
-// 3.2 
+ 
 // Dica: Utilize uma constante pra function
 
 const usuario = { nome: 'Diego', idade: 23 };
@@ -26,7 +25,7 @@ mostraIdade(usuario);
 ```
 
 ```js
-// 3.3
+
 // Dica: Utilize uma constante pra function
 
 const nome = "Diego";
