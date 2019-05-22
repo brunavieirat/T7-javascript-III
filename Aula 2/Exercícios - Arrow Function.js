@@ -1,40 +1,61 @@
+# Exercícios
+
 ## 1º exercício
 
-Converta as funções nos seguintes trechos de código em Arrow Functions:
+Crie um array de alunas contendo as informações: nome, idade, materia_preferida, conforme exemplo abaixo:
 
 ```js
+const alunas = [
+    { nome: "XXX", idade: 23, materia_preferida: "JavaScript" },
+    { nome: "ZZZ", idade: 15, materia_preferida: "JQuery" },
+    { nome: "AAA", idade: 30, materia_preferida: "Bootstrap" }
+  ];
 
-const arr = [1, 2, 3, 4, 5];
-
-arr.map(function(item) {
-  return item + 10;
-});
 ```
 
+ e utilizando os métodos de array (map, reduce, filter e find):
+
+### 1.1 Utilizando o `map`
+
+Percorra o array alunas e retorne outro array contendo apenas as idades de todas as alunas. Exemplo:
+
 ```js
- 
-// Dica: Utilize uma constante pra function
-
-const usuario = { nome: 'Diego', idade: 23 };
-
-function mostraIdade(usuario) {
-  return usuario.idade;
-}
-
-mostraIdade(usuario);
+[
+  23,
+  15,
+  30
+]
 ```
 
+
+### 1.2 Utilizando o `filter`
+
+Retorne um array que contenha os dados da alunas que tem a idade maior que 24. Exemplo:
+
 ```js
+[
+  {  nome: "AAA", idade: 30, materia_preferida: "Bootstrap" }
+]
+```
 
-// Dica: Utilize uma constante pra function
+### 1.3 Utilizando o `find`
 
-const nome = "Diego";
-const idade = 23;
+Retorne um array que encontre as alunas na qual a matéria preferida seja JavaScript. Exemplo:
 
-function mostraUsuario(nome = 'Diego', idade = 18) {
-  return { nome, idade };
-}
+```js
+[
+  { nome: "XXX", idade: 23, materia_preferida: "JavaScript" }
+]
+```
 
-mostraUsuario(nome, idade);
-mostraUsuario(nome);
+### 1.4 Unindo operações
+
+Multiplique a idade de todas alunas por dois e depois realize um filtro nas que possuem no máximo 25 anos: 
+
+```js
+// Resultado:
+[
+  { nome: "XXX", idade: 23, materia_preferida: "JavaScript" },
+  { nome: "ZZZ", idade: 15, materia_preferida: "JQuery" },
+]
 ```
