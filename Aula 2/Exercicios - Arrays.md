@@ -46,10 +46,12 @@ Retorne um array que encontre as alunas na qual a matéria preferida seja JavaSc
 [
   { nome: "XXX", idade: 23, materia_preferida: "JavaScript" }
 ]
+```
 
 ### 1.4 Unindo operações
 
 Multiplique a idade de todas alunas por dois e depois realize um filtro nas que possuem no máximo 25 anos: 
+
 ```js
 // Resultado:
 [
