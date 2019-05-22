@@ -1,6 +1,17 @@
 # Exercícios: 
 
-## 1º exercício
+## 1º Exercício
+
+Converta o seguinte trecho de código utilizando Template Literals:
+
+```js
+const usuario = 'Amélia';
+const idade = 25;
+
+console.log('O usuário ' + usuario + ' possui ' + idade + ' anos');
+```
+
+## 2º exercício
 
 Crie uma função que dado o objeto a seguir:
 
@@ -21,7 +32,7 @@ Retorne o seguinte conteúdo:
 ```
 O curso da Reprograma acontece na Estação Hack que fica localizada em São Paulo / SP, no bairro Bela Vista, na "Avenida Paulista", nº 1374.
 ```
-## 2º exercício
+## 3º exercício
 
 Dado o seguinte vetor de objetos:
 
