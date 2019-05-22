@@ -1,3 +1,5 @@
+# Exercícios
+
 ## 1º exercício
 
 Crie um array de alunas contendo as informações: nome, idade, materia_preferida, conforme exemplo abaixo:
